@@ -76,6 +76,11 @@
 		</dependency>
 		 -->
 	</dependencies>
+	<dependency>
+		<groupId>org.mortbay.jetty</groupId>
+			<artifactId>maven-jetty-plugin</artifactId>
+				<version>6.1.10</version>
+	</dependency>
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
